@@ -1,0 +1,52 @@
+12:30:11.635 28-06-21 main                  INFO ightManagementApplication               logStarting   55 Starting FlightManagementApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 1120 (C:\Users\rames\OneDrive\Documents\Alldoc_cts\learning_phase\stage3_new\Lombok,sonar_hanson\FlightManagement\target\classes started by rames in C:\Users\rames\OneDrive\Documents\Alldoc_cts\learning_phase\stage3_new\Lombok,sonar_hanson\FlightManagement)
+12:30:11.673 28-06-21 main                  INFO ightManagementApplication     logStartupProfileInfo  659 No active profile set, falling back to default profiles: default
+12:30:22.429 28-06-21 main                  INFO s.b.w.e.t.TomcatWebServer                initialize  108 Tomcat initialized with port(s): 8080 (http)
+12:30:22.531 28-06-21 main                  INFO o.a.c.c.StandardService                         log  173 Starting service [Tomcat]
+12:30:22.533 28-06-21 main                  INFO o.a.c.core.StandardEngine                       log  173 Starting Servlet engine: [Apache Tomcat/9.0.46]
+12:30:22.862 28-06-21 main                  INFO o.a.c.c.C.[.[.[/]                               log  173 Initializing Spring embedded WebApplicationContext
+12:30:22.868 28-06-21 main                  INFO bServerApplicationContext prepareWebApplicationContext  290 Root WebApplicationContext: initialization completed in 10460 ms
+12:30:25.247 28-06-21 main                  INFO s.b.w.e.t.TomcatWebServer                     start  220 Tomcat started on port(s): 8080 (http) with context path ''
+12:30:25.284 28-06-21 main                  INFO ightManagementApplication                logStarted   61 Started FlightManagementApplication in 21.015 seconds (JVM running for 25.282)
+12:31:32.514 28-06-21 http-nio-8080-exec-1  INFO o.a.c.h.Http11Processor                         log  175 Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xe30x14N0x82h0xf50xd80x1eA0xb1p_0x190xff0x85LI0x85g0x0c0xf8j0x930x910xebB0x8dq0xf7Fao ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+12:31:32.515 28-06-21 http-nio-8080-exec-2  INFO o.a.c.h.Http11Processor                         log  175 Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xf530x020x000xc50xb50xdf0x8d0x9b0x820x810xaf0x0b0x010xdd0x920xae0x030xb7;0xcc0x1d0x1c0xd80x820x880x810xca0xe30xf70x1fm ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+12:32:07.318 28-06-21 http-nio-8080-exec-5  INFO o.a.c.c.C.[.[.[/]                               log  173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:32:07.323 28-06-21 http-nio-8080-exec-5  INFO o.s.w.s.DispatcherServlet           initServletBean  525 Initializing Servlet 'dispatcherServlet'
+12:32:07.328 28-06-21 http-nio-8080-exec-5  INFO o.s.w.s.DispatcherServlet           initServletBean  547 Completed initialization in 4 ms
+12:32:07.488 28-06-21 http-nio-8080-exec-5  WARN tHandlerExceptionResolver              logException  207 Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+12:37:16.174 28-06-21 main                  INFO ightManagementApplication               logStarting   55 Starting FlightManagementApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 12244 (C:\Users\rames\OneDrive\Documents\Alldoc_cts\learning_phase\stage3_new\Lombok,sonar_hanson\FlightManagement\target\classes started by rames in C:\Users\rames\OneDrive\Documents\Alldoc_cts\learning_phase\stage3_new\Lombok,sonar_hanson\FlightManagement)
+12:37:16.182 28-06-21 main                  INFO ightManagementApplication     logStartupProfileInfo  659 No active profile set, falling back to default profiles: default
+12:37:19.289 28-06-21 main                  INFO s.b.w.e.t.TomcatWebServer                initialize  108 Tomcat initialized with port(s): 8080 (http)
+12:37:19.311 28-06-21 main                  INFO o.a.c.c.StandardService                         log  173 Starting service [Tomcat]
+12:37:19.312 28-06-21 main                  INFO o.a.c.core.StandardEngine                       log  173 Starting Servlet engine: [Apache Tomcat/9.0.46]
+12:37:19.469 28-06-21 main                  INFO o.a.c.c.C.[.[.[/]                               log  173 Initializing Spring embedded WebApplicationContext
+12:37:19.471 28-06-21 main                  INFO bServerApplicationContext prepareWebApplicationContext  290 Root WebApplicationContext: initialization completed in 3067 ms
+12:37:20.701 28-06-21 main                  INFO s.b.w.e.t.TomcatWebServer                     start  220 Tomcat started on port(s): 8080 (http) with context path ''
+12:37:20.731 28-06-21 main                  INFO ightManagementApplication                logStarted   61 Started FlightManagementApplication in 6.105 seconds (JVM running for 7.845)
+12:37:48.142 28-06-21 http-nio-8080-exec-1  INFO o.a.c.c.C.[.[.[/]                               log  173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:37:48.150 28-06-21 http-nio-8080-exec-1  INFO o.s.w.s.DispatcherServlet           initServletBean  525 Initializing Servlet 'dispatcherServlet'
+12:37:48.180 28-06-21 http-nio-8080-exec-1  INFO o.s.w.s.DispatcherServlet           initServletBean  547 Completed initialization in 13 ms
+12:37:48.529 28-06-21 http-nio-8080-exec-1  WARN tHandlerExceptionResolver              logException  207 Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
