@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button onclick="display()">Get Names</button>
+            <div id="demo"></div>
+        <script>
+            function display()
+            {
+                //const array=["Bluth, George","Weaver, Janet","Wong, Emma","Holt, Eve","Morris, Charles","Ramos, Tracey"];
+                const s=[{"first" : "George" , "last" : "Bluth"},{"first" : "Weaver" , "last" : "Janet"},{"first" : "Wong" , "last" : "Emma"},{"first" : "Morris" , "last" : "Charles"},{"first" : "Ramos" , "last" : "Tracey"}];
+               
+                s.forEach(el=>{
+                    document.getElementById("demo").innerHTML+=`<ul><li> ${el.first},${el.last}</li></ul>`;
+                })
+            }
+        </script>
+    </body>
+</html>
